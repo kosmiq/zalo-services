@@ -1,0 +1,45 @@
+.zalo-services {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.zalo-services .three-services.wrap {
+  clear: both;
+}
+
+.zalo-services .service {
+  /*width: 30%;*/
+  display: block;
+  /*float: left;
+  margin: 1.3333333%;*/
+}
+
+.zalo-services .service-image {
+  width: 20%;
+  float: left;
+  font-size: inherit;
+  text-align: center;
+  color: #2d9026;
+}
+
+.zalo-services .service-info {
+  width: 80%;
+  float: right;
+}
+
+.zalo-services .service-info .entry-header {
+  text-align: left;
+}
+
+.zalo-services .service-info .entry-header h4 {
+  margin: 0;
+  padding: 5px 0;
+}
+
+@media only screen and (max-width: 1023px) {
+  .zalo-services .three-services.wrap {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 100%;
+  }
+}
